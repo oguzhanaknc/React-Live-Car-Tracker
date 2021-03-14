@@ -1,10 +1,23 @@
-# Getting Started with Create React App
+# Getting Started 
+
+**Kullandığınız tarayıcı için Cors'u devre dışı bırakmayı unutmayın. Aksi halde çalışmayacaktır. Client tarafında bunun için bir önlem almadım. gerekirse alablirim.**
+
+**live_car_tracker_Server klasörü içerisinde ki app.js dosyasını react'dan bağımsız olarak çalıştırın. Server ve Frond-end farklı projeler olmasına ramen aynı proje içerisindeler.**
+
+**Gereken Kodlar ve açıklamalar aşağıda bulunmakta**
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
+# Available Scripts
+**!Do not Forget !  npm install**
 In the project directory, you can run:
+## For Server
+  
+Commands you can use for the websocket server
+### `node app.js`
+You can use it by running it inside the `\live_car_tracker_Server\src`
+## For React Project
 
 ### `npm start`
 
@@ -39,32 +52,9 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ - React and all react dependencies
+ - Leaflet and react-leaflent with all dependencies
+ - express and all express dependencies
+ - socketio and all socketio dependencies
